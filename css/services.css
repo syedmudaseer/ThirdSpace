@@ -1,0 +1,149 @@
+.serviceBox{
+    text-align: center;
+    position: relative;
+}
+.serviceBox .service-icon {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto 45px;
+    border: 2px solid #fff000;
+    z-index: 1;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox .service-icon:before,
+.serviceBox .service-icon:after{
+    content: "";
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid #fff000;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%) rotate(135deg);
+    transition: all 0.3s ease 0s;
+}
+.serviceBox .service-icon:after{
+    width: 20px;
+    height: 20px;
+    background: #fba21a;
+    border: none;
+}
+.serviceBox:hover .service-icon:before{
+    bottom: -16px;
+    opacity: 1;
+}
+.serviceBox:hover .service-icon:after{
+    bottom: -8px;
+    opacity: 1;
+}
+.serviceBox .service-icon span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    color: #fba21a;
+    line-height: 104px;
+    border-radius: 50%;
+    border: 2px solid #fba21a;
+}
+
+.serviceBox .service-icon span:before,
+.serviceBox .service-icon span:after{
+    content: '';
+    display: block;
+    width: 3px;
+    height: 30px;
+    background: #fba21a;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 0.3s ease 0s;
+}
+.serviceBox .service-icon span:after{
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 3px solid #fba21a;
+    border-left: 3px solid transparent;
+    border-top: 3px solid transparent;
+    transform: translateX(-48%) rotate(45deg);
+}
+.serviceBox:hover .service-icon span:before,
+.serviceBox:hover .service-icon span:after{
+    bottom: -30px;
+    opacity: 1;
+}
+.serviceBox .title {
+    font-size: 13px;
+    color: #fba21a;
+    text-transform: uppercase;
+    margin: 0 0 6px 0;
+}
+.serviceBox .description {
+    font-size: 13px;
+    color: #555;
+    padding: 0 8px;
+    margin: 0;
+}
+.serviceBox.yellow .service-icon{ border-color: #fff000; }
+.serviceBox.skyblue .service-icon:before{
+    border-bottom-color: #fff000;
+    border-left-color: #fff000;
+}
+.serviceBox.yellow .service-icon:after,
+.serviceBox.yellow .service-icon span:before{ background: #fff000; }
+.serviceBox.yellow .service-icon span{
+    border-color: #fff000;
+    color: #fff000;
+}
+.serviceBox.yellow .service-icon span:after{
+    border-right-color: #fff000;
+    border-bottom-color: #fff000;
+}
+.serviceBox.yellow .title{ color: #fff000; }
+.serviceBox.pink .service-icon{ border-color: #d41271; }
+.serviceBox.pink .service-icon:before{
+    border-bottom-color: #d41271;
+    border-left-color: #d41271;
+}
+.serviceBox.pink .service-icon:after,
+.serviceBox.pink .service-icon span:before{ background: #d41271; }
+.serviceBox.pink .service-icon span{
+    border-color: #d41271;
+    color: #d41271;
+}
+.serviceBox.pink .service-icon span:after{
+    border-right-color: #d41271;
+    border-bottom-color: #d41271;
+}
+.serviceBox.pink .title{ color: #d41271; }
+.serviceBox.green .service-icon{ border-color: #0fb513; }
+.serviceBox.green .service-icon:before{
+    border-bottom-color: #0fb513;
+    border-left-color: #0fb513;
+}
+.serviceBox.green .service-icon:after,
+.serviceBox.green .service-icon span:before{ background: #0fb513; }
+.serviceBox.green .service-icon span{
+    border-color: #0fb513;
+    color: #0fb513;
+}
+.serviceBox.green .service-icon span:after{
+    border-right-color: #0fb513;
+    border-bottom-color: #0fb513;
+}
+.serviceBox.green .title{ color: #0fb513; }
+@media only screen and (max-width:990px){
+    .serviceBox{ margin-bottom: 30px; }
+}
+License Terms
