@@ -12,9 +12,14 @@
 @font-face {
    font-family:'HELR45W';
     src:url(../fonts/HELR45W.ttf) format('truetype');
+	font-family:'Righteous-Regular';
+    src:url(../fonts/Righteous-Regular.ttf) format('truetype');
     
 }
 
+.3d{
+font-family:'Righteous-Regular';
+}
 
 body a{
     transition:0.5s all;
@@ -53,16 +58,16 @@ body{
 #panel, #flip {
     padding: 5px;
     text-align: center;
-    background-color:orange;
     height:auto;
 	position: absolute;
 	z-index: 3;
 }
 
 #panel {
-    margin-left: 60.5em;
+    margin-left: 61em;
     height: 138%;
     width: 37%;
+	align-content:center;
 	display:none;
 }
 
@@ -77,8 +82,9 @@ body{
 }
 
 
-.logo {
- 
+.logo img{
+	width:100%;
+	height:100%;
     margin: 0em;
 }
 }
@@ -985,7 +991,7 @@ img.zoom-img:hover {
 }
 .about-grid h4 {
    font-size: 1.5em;
-    color: #fff000;
+    color: #ffb900;
 	font-family: 'HELR45W';
 }
 .about-grid1 p {
@@ -997,7 +1003,7 @@ img.zoom-img:hover {
 }
 .about-grid p {
     font-size: 1em;
-    color: #fff000;
+    color: #ffb900;
 	font-family: 'HELR45W';
 	background-color:626262
 }
@@ -1836,7 +1842,7 @@ a.morebtn {
     background-color: #000;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #fff000;
+    background-color: #ffb900;
 }
 .form-group {
     width: 43%;
@@ -1844,7 +1850,7 @@ a.morebtn {
     margin: 0 auto;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #fff000;
+    color: #ffb900;
     background-color: #fff;
 }
 .navbar {

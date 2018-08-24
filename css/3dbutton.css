@@ -1,13 +1,13 @@
     @font-face {
-   font-family:'HELR45W';
-    src:url(../fonts/HELR45W.ttf) format('truetype');
+	font-family:'Righteous-Regular';
+    src:url(../fonts/Righteous-Regular.ttf) format('truetype');
     
-	}
+}
 
 	.boton {
-        width:600px;
+        width:500px;
         height: 50px;
-		margin:0 0 0 60.5em;
+		margin:0 0 0 61em;
         display: block;
         position: relative;
     }
@@ -19,8 +19,8 @@
         z-index: 1;
         text-align: center;
         line-height: 50px;
-        font-family:'HELR45W';
-        font-size: 17px;
+        font-family:'Righteous-Regular';
+        font-size: 25px;
         
     }
     

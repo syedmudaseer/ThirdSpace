@@ -1,7 +1,8 @@
 .rslides {
 width: 101%;
 /*To make sure it does not cover anything */
-position: relative;
+position: absolute;
+z-index:-1;
 height:100%;
 top: 0;
 left: 0;
