@@ -1671,8 +1671,8 @@ a.morebtn {
     width: 33.3%;
 }
 .logo {
-    margin: 1em;
-    z-index: 3;
+    margin: 0em;
+    z-index: 1;
     position: relative;
 }
 .logo1 h1 a {
@@ -2249,9 +2249,9 @@ a.button1 {
     padding: 0;
 }
 .logo {
-    margin: 1em;
-    z-index: 3;
-    position: inherit;
+    margin: 0em;
+    z-index: 1;
+    position: absolute;
 }
 .contact h3 {
     margin: 17px 6em 11px;
