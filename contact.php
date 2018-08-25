@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Architect designs </title>
+<title>contact third space architects </title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -89,9 +89,8 @@
 						<h4>Address :</h4>
 						<p>Eiusmod Tempor inc</p>
 						<p>9560 St Dolore Place,</p>
-						<p>Telephone : +1 800 603 6035</p>
-						<p>FAX : +1 800 889 9898</p>
-						<a href="mailto:example@email.com">mail@example.com</a>
+						<p>phone : +91 7708782836</p>
+						<a href="mailto:example@email.com">thirdspacearchitects@gmail.com</a>
 					</div>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.3737427404108!2d-87.6396654!3d41.8848187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cc7c3102b49%3A0xb1fdcb49d39e5a1b!2sSpa+Space!5e0!3m2!1sen!2sin!4v1439200561345" frameborder="0" style="border:0" ></iframe>
 						<h3>Drop a Line Here</h3>

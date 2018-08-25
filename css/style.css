@@ -17,9 +17,7 @@
     
 }
 
-.3d{
-font-family:'Righteous-Regular';
-}
+
 
 body a{
     transition:0.5s all;
@@ -1180,8 +1178,8 @@ img.zoom-img:hover {
   display: block;
   left: 0;
   top: 0px;
-  width: 348px;
-  height: 227px;
+  width: 100%;
+  height: 80%;
   background: rgba(178, 189, 212, 0.65) url(../images/zoom.png) center center no-repeat;
   cursor: pointer;
   transition: all .2s ease-in-out;
